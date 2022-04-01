@@ -4,7 +4,7 @@
 
 ## `map()`
 
-`[map()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/map)` 메서드는 배열 내의 모든 요소 대하여 주어진 함수를 호출한 결과를 모아 새로운 배열을 반환합니다.
+[map()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/map) 메서드는 배열 내의 모든 요소 대하여 주어진 함수를 호출한 결과를 모아 새로운 배열을 반환합니다.
 
 ```jsx
 const numbers = [1, 2, 3, 4, 5, 6, 7];
@@ -16,7 +16,7 @@ console.log(result); // [2, 4, 6, 8, 10, 12, 14]
 
 ## `some()`
 
-`[some()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/some)` 메서드는 배열 안의 어떤 요소라도 주어진 판별 함수를 통과하는지 테스트 합니다.
+[some()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/some) 메서드는 배열 안의 어떤 요소라도 주어진 판별 함수를 통과하는지 테스트 합니다.
 
 ```jsx
 const fluits = ["사과", "딸기", "배", "참외", "딸기", "수박"];
@@ -28,7 +28,7 @@ console.log(result); // true
 
 ## `every()`
 
-`[every()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/every)` 메서드는 배열 안의 모든 요소가 주어진 판별 함수를 통과하는지 테스트 합니다.
+[every()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/every) 메서드는 배열 안의 모든 요소가 주어진 판별 함수를 통과하는지 테스트 합니다.
 
 ```jsx
 const fluits = ["수박", "수박", "배", "수박", "수박", "수박"];
@@ -40,7 +40,7 @@ console.log(result); // false
 
 ## `filter()`
 
-`[filter()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)` 메서드는 주어진 함수의 테스트를 통과하는 모든 요소를 모아 새로운 배열로 반환합니다.
+[filter()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) 메서드는 주어진 함수의 테스트를 통과하는 모든 요소를 모아 새로운 배열로 반환합니다.
 
 ```jsx
 // 짝수만 필터링 하기
@@ -53,7 +53,7 @@ console.log(result); // [2, 4, 6]
 
 ## `reduce()`
 
-`[reduce()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)` 메서드는 배열의 각 요소에 대해 주어진 리듀서(reducer) 함수를 실행하고, 하나의 결과값을 반환합니다.
+[reduce()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) 메서드는 배열의 각 요소에 대해 주어진 리듀서(reducer) 함수를 실행하고, 하나의 결과값을 반환합니다.
 
 ### 리듀서 함수
 
